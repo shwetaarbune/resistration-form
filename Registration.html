@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPSC Exam registration 2021</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <form action="data.php">
+    <section>
+    <header>
+        <fieldset>
+            <legend>Name of exam</legend>
+            <h1>MPSC Exam registration 2021</h1>
+        </fieldset>
+        
+    </header>
+    </section>
+    <section>
+        <fieldset>
+            <legend>student information</legend>
+            <label for="First name:">First name </label>
+            <input type="text" name="username" placeholder="enter first name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="middle name">Middle name</label>
+            <input type="text" name="middlename" placeholder="enter middle name"><br><br>
+            <label for="last name">Last name</label>
+            <input type="text" name="lastname" placeholder="enter middle name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Parent’s Name">Parent’s Name</label>
+            <input type="text" name="Parent’s Name" placeholder="enter parents name"><br><br>
+            <label for="Mobile no">Mobile no</label>
+            <input type="number" name="mobile no" placeholder="enter mobile no">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="emial">Email id</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="emailid" placeholder="enter email id"><br><br>
+            <label for="id proof">ID proof</label>&nbsp;&nbsp;
+            <select>
+                <option>Adhar card</option>
+                <option>College Id</option>
+                <option>Birth certificate</option>
+            </select><br><br>
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="4" cols="50">
+                enter your local address
+                </textarea>
+        </fieldset>
+
+    </section>
+    <section>
+        <fieldset>
+            <label for="Qualificaion">Qualificaion</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option>BE/BTch</option>
+                <option>B com</option>
+                <option>ME/MTech</option>
+                <option>BA</option>
+                <option>MBA</option>
+                <option>BBA</option>
+            </select><br><br>
+            <label for ="Branch">Branch</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option value="Computer science ane engg">Computer science ane engg</option>
+                    <option value="Electrical engg">Electrical engg</option>
+                    <option value="Mechanical engg">Mechanical engg</option>
+                    <option value="Electronic engg">Electronic engg</option>
+            </select><br><br>
+            <legend>College name</legend>
+            <label>  
+                Enter your College Name 
+                <input type="text" id="collegename" list="college name">  
+                <datalist id="college name">  
+                <option value="COEP pune">  
+                <option value="WCE sangli">  
+                <option value="PICT">   
+                <option value="IIT Bombay">   
+                <option value="IIT Dehli">   
+                <option value="IIT rukree">   
+                <option value="NMPI Peth">   
+                <option value="KIT Kolhapur">   
+                <option value="Sangivan sangli ">   
+                 </datalist> 
+                  </label>   <br><br>
+                  <label>  
+                    Enter your University  Name 
+                    <input type="text" id="university" list="university name">  
+                    <datalist id="university name">  
+                    <option value="Shivaji university">  
+                    <option value="MSBTE">  
+                    <option value="BATU University">   
+                    <option value="AICTE">      
+                     </datalist> 
+                      </label>   
+        </fieldset>
+
+    </section>
+    <section>
+        <fieldset>
+            <legend>exam preferences</legend>
+            <label for="Exam branch">Exam branch</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option>Deputy Collector</option>
+                <option>Deputy Suprintendent of Police (DySP)</option>
+                <option>Assistant Commissioner Sales Tax.</option>
+                <option>Deputy Registrar Co-operative Socities</option>
+                <option>Deputy Chief Executive Officer.</option>
+                <option>Suprintendent State Excise Deppt</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="city">Exam city</label>
+            <select>
+                <optgroup label="Maharashtra">
+                    <option>Sangli</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                </optgroup>
+                <optgroup label="Uttar pradesh">
+                    <option>Lacknoww</option>
+                    <option>Kanpur</option>
+                    <option>Agra</option>
+                </optgroup>
+            </select>
+           
+        </fieldset>
+
+    </section>
+    <button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Do you want to submit");
+}
+</script>
+		
+</form>
+</body>
+</html>
